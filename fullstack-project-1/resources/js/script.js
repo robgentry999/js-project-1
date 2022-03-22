@@ -63,7 +63,7 @@ const quotes = [
 
 function getRandomQuote ()
 {
-  let randomnumber = Math.floor( (Math.random() * 8) );
+  let randomnumber = Math.floor( (Math.random() * 7) );
   
     return quotes[randomnumber];
 }
