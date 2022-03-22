@@ -83,10 +83,6 @@ if (randomQuote.hasOwnProperty('citation')){
 if (randomQuote.hasOwnProperty(`year`)) {
     html += `<span class="year"> ${randomQuote.year} </span>`
 }
-
-if (randomQuote.hasOwnProperty(`tag`)) {
-     html += `<span class="tag"> ${randomQuote.tag} </span>`
-}
   document.getElementById('quote-box').innerHTML = html;    
 }
 /***
